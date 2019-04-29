@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Home | Laranja Lima Shoes
+        </title>
+        <style>
+            body {
+                margin: 0px;
+            }
+            .header {
+                display: flex;
+                height: 200px;
+                flex-direction: column;
+            }
+            .head {
+                display: flex;
+                height: 100%;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .containerHead1 {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            .containerHead2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+            .containerHead3 {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+                width: 100%;
+            }
+            .seções {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                height: 25%; 
+                background-color:#A5C854;
+            }
+            .filtro {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                height: 90px;
+                background-color:#D9E7B6;
+            }
+            .siga-nos {
+                margin-top: 0px;
+                margin-bottom: 20px;
+                color:#F2D446;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .busca {
+                width: 350px;
+                height: 30px;
+            }
+            h4.login {
+                font-family: Arial, Helvetica, sans-serif;
+                color:darkgrey;
+            }
+            h4.cadastro {
+                font-family: Arial, Helvetica, sans-serif;
+                color:darkgrey;
+            }
+            h4.seção {
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-right: 10px;
+            }
+            select.numeração {
+                font-size: large;
+                border-color: #F2D446;
+                color:darkgrey;
+                width: 150px;
+                height: 50px;
+                margin: 10px;
+            }
+            input.buscar {
+                color: 	#B69E3D;
+                background-color: #FAEBA2;
+                border-color: #F2D446;
+                border-radius: 10px;
+                font-size: larger;
+                width: 150px;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="head">
+                <div class="containerHead1">
+                    <h3 class="siga-nos">siga-nos</h3>
+                    <input class="busca" type="text">
+                </div>
+                <div class="containerHead2">
+                    <img class="itemLogo" src="images/Logo Laranja Lima.PNG">
+                </div>
+                <div class="containerHead3">
+                    <img src="images/sacola de compra.PNG">
+                    <img src="images/login.PNG">
+                    <h4 class="login">LOGIN |</h4>
+                    <h4 class="cadastro">CADASTRE-SE</h4>
+                </div>
+            </div>
+            <div class="seções">
+                <h4 class="seção">SAPATOS FEMININOS</h4>
+                <h4 class="seção">|</h4>
+                <h4 class="seção">FASHION CARE - SAPATOS BRANCOS</h4>
+            </div>
+        </div>
+        <div class="filtro">
+            <img src="images/logo filtro.PNG">
+            <h3>COMPRE POR <br> NUMERAÇÃO</h3>
+            <select class="numeração" name="numeração">
+                <option>numeração?</option>
+                <option>33</option>
+                <option>34</option>
+                <option>35</option>
+                <option>36</option>
+                <option>37</option>
+                <option>38</option>
+                <option>39</option>
+                <option>40</option>
+                <option>41</option>
+            </select>
+            <input class="buscar" type="button" value="BUSCAR">
+        </div>
+    </body>
+</html>
