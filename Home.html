@@ -7,6 +7,8 @@
         <style>
             body {
                 margin: 0px;
+                display:flex;
+                flex-direction: column;
             }
             .header {
                 display: flex;
@@ -93,6 +95,50 @@
                 width: 150px;
                 height: 50px;
             }
+            .informações {
+                height: 70px;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly; 
+            }
+            .item {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin: 10px;
+            }
+            .carrossel {
+                height: 335px;
+                width: 100%;
+            }
+            .maisVendidos {
+                height: 335px;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .corpoCards {
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+            .card {
+                height:460px;
+                width: 270px;
+                margin: 10px;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .itemsCard {
+                display: flex;
+                justify-content: center;
+            }
         </style>
     </head>
     <body>
@@ -135,5 +181,92 @@
             </select>
             <input class="buscar" type="button" value="BUSCAR">
         </div>
+        <div class="informações">
+            <div class="item">
+                <img src="images/cartão_crédito.PNG">
+                <h3>Em até 5x sem juros</h3>
+            </div>
+            <div class="item">
+                <img src="images/cadeado.PNG">
+                <h3>Comprar aqui é <br> 100% seguro</h3>
+            </div>
+            <div class="item">
+                <img src="images/atendimento.PNG">
+                <h3>ATENDIMENTO <br> (11) 2068-2964</h3>
+            </div>
+            <div class="item">
+                <img src="images/refresh.PNG">
+                <h3>1ª troca grátis</h3>
+            </div>
+        </div>
+        <div class="carrossel">
+            <img src="images/carrossel.PNG">
+        </div>
+        <div class="maisVendidos">
+            <img class="item" src="images/botaMarrom.PNG">
+            <img class="item" src="images/botaVerde.PNG">
+            <img class="item" src="images/botaMusgo.PNG">
+        </div>
+        <div>
+            <h1 class="item">aproveite as novidades <br> Laranja Lima Shoes</h1>
+        </div>
+        <div class="corpoCards">
+            <div>
+                <div class="card">
+                    <img class="itemsCard" src="images/141070.PNG">
+                    <h4 class="itemsCard">Bota Cano curto em couro Marrom <br> Café - Código - 141070</h4>
+                    <h1 class="itemsCard" style="color: red;">R$ 289,90</h1>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img class="itemsCard" src="images/141068.PNG">
+                    <h4 class="itemsCard">Bota Cano curto em couro Marrom <br> Telha - Código - 141068</h4>
+                    <h1 class="itemsCard" style="color: red;">R$ 269,90</h1>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img class="itemsCard" src="images/141067.PNG">
+                    <h4 class="itemsCard">Bota Cano curto em couro Preto <br> - Código - 141067</h4>
+                    <h1 class="itemsCard" style="color: red;">R$ 269,90</h1>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img class="itemsCard" src="images/141066.PNG">
+                    <h4 class="itemsCard">Bota Cano curto em couro Marrom <br> com Vinho - Código - 141066</h4>
+                    <h1 class="itemsCard" style="color: red;">R$ 269,90</h1>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img class="itemsCard" src="images/56121.PNG">
+                    <h4 class="itemsCard">Rasteira Flat em Couro Laranja <br> Ferrugem com Café - Código - 56121</h4>
+                    <h1 class="itemsCard" style="color: red;">R$ 159,90</h1>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img class="itemsCard" src="images/145033.PNG">
+                    <h4 class="itemsCard">Tênis Cano Baixo em Couro Musgo <br> - Código - 145033</h4>
+                    <h1 class="itemsCard" style="color: red;">R$ 209,90</h1>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img class="itemsCard" src="images/145030.PNG">
+                    <h4 class="itemsCard">Rasteira Flat em Couro Caramelo <br> - Código - 145030</h4>
+                    <h1 class="itemsCard" style="color: red;">R$ 189,90</h1>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img class="itemsCard" src="images/137161.PNG">
+                    <h4 class="itemsCard">Bota Cano curto em couro Preto <br> com Salto de 5cm - Código - 137161</h4>
+                     <h1 class="itemsCard" style="color: red;">R$ 259,90</h1>
+                </div>
+            </div>
+        </div>    
     </body>
 </html>
